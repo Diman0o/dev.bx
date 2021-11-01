@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.wrapper {
+    display: flex;
+    background: #F2F2F2;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.left-menu {
+    display: flex;
+    width: 400px;
+    background: #383838;
+    flex-direction: column;
+}
+
+.left-menu-title {
+    position: absolute;
+    width: 216px;
+    height: 74px;
+    left: 81px;
+    top: 52px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #43B0ED;
+}
+
+.vector-left-menu-title {
+    position: absolute;
+    width: 398px;
+    height: 79px;
+    left: -9px;
+    top: 112px;
+}
+
+.ellipse-vector-left-menu-title {
+    cx: 199px;
+    cy: 39px;
+    rx: 199px;
+    ry: 39px;
+    fill: #383838;
+}
+
+.left-menu-list {
+    display: flex;
+    position: absolute;
+    left: 29px;
+    top: 170px;
+    flex-direction: column;
+}
+
+.left-menu-item {
+    flex: 1;
+    height: 70px;
+}
+
+.line-left-menu-list {
+    flex: 1;
+    size: 2px;
+    color: #F2F2F2;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.movie-list {
+    flex: 1;
+}
