@@ -1,73 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap');
 
 .wrapper {
     display: flex;
-    background: #F2F2F2;
+    overlow: hidden;
     height: 100vh;
-    flex-direction: row;
 }
 
-.left-menu {
+.sidebar {
     display: flex;
     width: 400px;
     background: #383838;
     flex-direction: column;
 }
 
-.left-menu-title {
-    position: absolute;
-    width: 216px;
-    height: 74px;
-    left: 81px;
-    top: 52px;
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 96px;
-    line-height: 22px;
+.sidebar img {
+    margin: 51px 104px 0px 85px;
+}
+
+.left-menu {
     display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #43B0ED;
-}
-
-.vector-left-menu-title {
-    position: absolute;
-    width: 398px;
-    height: 79px;
-    left: -9px;
-    top: 112px;
-}
-
-.ellipse-vector-left-menu-title {
-    cx: 199px;
-    cy: 39px;
-    rx: 199px;
-    ry: 39px;
-    fill: #383838;
-}
-
-.left-menu-list {
-    display: flex;
-    position: absolute;
-    left: 29px;
-    top: 170px;
+    margin: 44px 30px 0px 30px;
     flex-direction: column;
 }
 
 .left-menu-item {
-    flex: 1;
+    list-style-type: none;
+    border-bottom: 1px solid rgba( 242, 242, 242, 0.1);
+}
+
+.left-menu-item:last-child {
+    border: none;
+}
+
+.left-menu-item a {
+    display: flex;
     height: 70px;
+    text-decoration: none;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0px 15px;
+
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #B7B7B7;
 }
 
-.line-left-menu-list {
-    flex: 1;
-    size: 2px;
-    color: #F2F2F2;
+.left-menu-item--active a,
+.left-menu-item a:hover {
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.05);
 }
 
-.content {
+.container {
     display: flex;
     height: 100vh;
     flex: 1;
@@ -75,11 +63,15 @@
 }
 
 .header {
+    display: flex;
     height: 88px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    flex-direction: row;
 }
 
-.movie-list {
+.content {
+    overflow: auto;
     flex: 1;
+    background: #F2F2F2;
 }
