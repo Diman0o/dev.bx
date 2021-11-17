@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap');
+
+.content {
+    overflow: auto;
+    flex: 1;
+    background: #F2F2F2;
+}
+
+.movie-page {
+    display: flex;
+    height: auto;
+    width: 1170px;
+    margin: 40px 0px 50px 50px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding-bottom: 56px;
+}
+
+.movie-header {
+    display: block;
+    height: auto;
+    width: 1112px;
+    margin: 35px 0px 0px 44px;
+    border-bottom: 1px solid  #CCCCCC;
+    padding-bottom: 20px;
+}
+
+.movie-page-title {
+    display: block;
+    height: auto;
+    width: 720px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #333333;
+}
+
+.movie-page-image-like {
+    display: block;
+    float: right;
+    height: 36px;
+    width: 42px;
+    margin: 22px 10px 0px 0px;
+}
+
+.movie-page-title-en {
+    display: inline-block;
+    float: left;
+    height: 42px;
+    margin: 8px 10px 0px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #999999;
+}
+
+.movie-page-age-limit {
+    display: block;
+    height: 32px;
+    width: 39px;
+    margin-top: 10px;
+}
+
+.movie-page-content {
+    display: flex;
+    height: auto;
+    width: 1112px;
+    margin: 32px 0px 0px 44px;
+    flex-direction: row;
+}
+
+.movie-page-poster {
+    height: 730px;
+    width: 469px;
+}
+
+.movie-page-info{
+    display: flex;
+    height: auto;
+    width: 577px;
+    margin-left: 44px;
+    flex-direction: column;
+}
+
+.movie-page-rating {
+    display: flex;
+    height: 55px;
+    width: 342px;
+    margin: 4px 0px 0px 19px;
+    flex-direction: row;
+}
+
+.movie-page-rating-scale {
+    display: flex;
+    height: 24px;
+    width: 270px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.movie-page-rating-scale-square {
+    height: 18px;
+    width: 18px;
+    margin-left: 9px;
+    background-color: #F2F2F2;
+}
+
+.movie-page-rating-scale-square--active {
+    background-color: #E78818;
+}
+
+.movie-page-rating-ellipse {
+    height: 55px;
+    width: 55px;
+    background-color: #E78818;
+    border-radius: 28px;
+    margin-left: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.movie-page-about-film {
+    height: 37px;
+    width: 164px;
+    margin: 14px 0px 7px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #333333;
+}
+
+.movie-page-about-film {
+    display: flex;
+    height: auto;
+    width: 577px;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+.movie-page-about-film-title {
+    height: auto;
+    width: 219px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #666666;
+}
+
+.movie-page-about-film-item {
+    height: auto;
+    width: 358px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.movie-page-description {
+    height: 37px;
+    width: 164px;
+    margin-top: 25px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #333333;
+}
+
+.movie-page-info-description {
+    height: auto;
+    width: 577px;
+    margin-top: 15px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
